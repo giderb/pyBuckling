@@ -7,9 +7,9 @@ Inputs:
 - **thickness** : Panel total thickness (mm).
 - **xbc** : Boundary condition for edges along x axis. Options: "SS", "SF", "CC", "CS", "CF", "FF".
 - **ybc** : Boundary condition for edges along y axis. Options: "SS", "SF", "CC", "CS", "CF", "FF".
-*         First letter represents the first edge condition, whilst the second parallel edge is represented by second letter:
-         Letter codes: "S" for simply supported, "C" for clamped, "F" for free.
-         For instance, "SF" is one edge simply supported and the other parallel edge is unconstrained (free)
+>First letter represents the first edge condition, whilst the second parallel edge is represented by second letter:
+ Letter codes: "S" for simply supported, "C" for clamped, "F" for free.
+ For instance, "SF" is one edge simply supported and the other parallel edge is unconstrained (free)
 - **Rx** : Radius of curvature along x axis (mm).
 - **Ry** : Radius of curvature along y axis (mm).
 - **percent_fix** : Percent fixity for specifying fixity ratio between all edges simply supported and all edges clamped boundary conditions
