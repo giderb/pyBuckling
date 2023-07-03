@@ -18,3 +18,5 @@ Inputs:
                For instance, in order to achieve 50% fixity, the buckling program is run with SS conditions and again with CC boundary conditions and the two critical buckling loads are averaged.
 - num_terms: Buckling half wave number and the number of terms for Ritz solution. 12 is generally sufficient to cover all possible combinations.
              Can be lowered down to 6 or even 4, if the number of half waves are known.
+
+This module reads the inputs from an Excel file, which includes "ABD_Matrix" and "Loads" sheets. 6x6 ABD matrix should be entered in the upperleft corner of the "ABD_Matrix" sheet. Several load cases can be inputted in the "Loads" page, with respect to the instructions provided in the "Conventions" sheet. An example input file is provided in the distribution - "Inputs.xlsx".
