@@ -13,9 +13,9 @@ Inputs:
 - **Rx** : Radius of curvature along x axis (mm).
 - **Ry** : Radius of curvature along y axis (mm).
 - **percent_fix** : Percent fixity for specifying fixity ratio between all edges simply supported and all edges clamped boundary conditions
--         Should be between 0 and 100. It specifies the panel buckling boundary condition in between simple and fixed. 
-               If set to 0, the percent fixity is not considered and the specified boundary conditions are used to obtain buckling margin of safety. 
-               For instance, in order to achieve 50% fixity, the buckling program is run with SS conditions and again with CC boundary conditions and the two critical buckling loads are averaged.
+>Should be between 0 and 100. It specifies the panel buckling boundary condition in between simple and fixed. 
+ If set to 0, the percent fixity is not considered and the specified boundary conditions are used to obtain buckling margin of safety. 
+ For instance, in order to achieve 50% fixity, the buckling program is run with SS conditions and again with CC boundary conditions and the two critical buckling loads are averaged.
 - **num_terms** : Buckling half wave number and the number of terms for Ritz solution. 12 is generally sufficient to cover all possible combinations.
              Can be lowered down to 6 or even 4, if the number of half waves are known.
 
