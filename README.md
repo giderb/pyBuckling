@@ -2,7 +2,7 @@
 This class will perform buckling calculations based on a generalized Ritz Energy solution for doubly curved anisotropic (orthotropic and isotropic as well) rectangular plates under generalized boundary conditions.
 Inputs:
 - **xls_path**: Excel path to the input file.
-- **a*** : Panel dimension - a. See input file more details.
+- **a** : Panel dimension - a. See input file more details.
 - **b** : Panel dimension - b. See input file more details.
 - **thickness** : Panel total thickness (mm).
 - **xbc** : Boundary condition for edges along x axis. Options: "SS", "SF", "CC", "CS", "CF", "FF".
